@@ -1,5 +1,5 @@
 {
-  "name": "es6-bank",
+  "name": "mocha-babel-starter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,16 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joecowton/es6-bank.git"
+    "url": "git+https://github.com/joecowton/mocha-babel-starter"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/joecowton/es6-bank/issues"
+    "url": "https://github.com/joecowton/mocha-babel-starter/issues"
   },
-  "homepage": "https://github.com/joecowton/es6-bank#readme",
+  "homepage": "https://github.com/joecowton/mocha-babel-starter#readme",
   "dependencies": {
+    "chai": "^4.1.2",
     "mocha": "^5.0.1"
   },
   "devDependencies": {
