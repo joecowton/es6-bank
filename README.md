@@ -1,1 +1,1 @@
-# es6-bank
+# mocha-babel-starter
