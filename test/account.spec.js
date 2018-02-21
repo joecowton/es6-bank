@@ -1,4 +1,5 @@
 const assert = require('assert')
+const { expect } = require('chai')
 const Account = require('../src/account')
 
 describe('Account', () => {
@@ -9,6 +10,6 @@ describe('Account', () => {
   })
 
   it('should initialize with a balance of zero', () => {
-    assert(account.balance === 0 )
+    expect(account.balance).to.equal(0)
   })
 })
